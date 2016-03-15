@@ -14,6 +14,6 @@ function res(a){
 	for (var i = 1; i < n; i++) {
 		result = result*a;
 	}
-	alert('Число ' + a + ' в ' + n + '-й степени равно ' + result);
+	console.log('Число ' + a + ' в ' + n + '-й степени равно ' + result);
 }
 res(a);
